@@ -1,0 +1,5 @@
+spring:
+  r2dbc:
+    url: r2dbc:oracle://dbhost:1521/dbservicename
+    username: db_username
+    password: db_password

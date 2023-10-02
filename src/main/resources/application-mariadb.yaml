@@ -1,0 +1,4 @@
+spring:
+  r2dbc:
+    url: r2dbc:mariadb://irina:jolt@127.0.0.1:3306
+    name: jbtests

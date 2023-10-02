@@ -1,0 +1,6 @@
+spring:
+  r2dbc:
+    url: 'r2dbc:mssql://zzzzz.database.windows.net:1433'
+    username: 'ira'
+    password: 'xxxxxx'
+    name: mydb

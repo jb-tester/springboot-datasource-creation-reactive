@@ -1,0 +1,7 @@
+spring:
+  r2dbc:
+    #url: r2dbc:mysql://localhost:3306
+    url: r2dbc:mysql://localhost:3306/
+    name: jbtests
+    username: irina
+    password: jolt
