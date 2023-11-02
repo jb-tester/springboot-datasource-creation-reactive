@@ -1,9 +1,13 @@
+#my:
+#  db:
+#    name: my_foo_db
+#    user: sa
 spring:
   r2dbc:
     #url: r2dbc:h2:file:///./foodb
     #url: r2dbc:h2:mem:///~/db/testdb
     #url: r2dbc:h2:mem:///foodb
     url: r2dbc:h2:mem:///
-    name: foodb
-    username: sa
+    name: ${my.db.name:mydb}
+    username: ${my.db.user:sa}
     password:
